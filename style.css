@@ -1,0 +1,247 @@
+body{
+    height: 100%;
+}
+
+/************-nav-************/
+
+ .nav{
+    background-color: #fff;
+    height: 44.5px;
+    width: 101%;
+    margin-top: -8px;
+    margin-left: -18px;
+    margin-right: -10px;
+    position: fixed;
+    border-bottom: 1px solid black;
+}
+#navin{
+    margin-top: -14.5px;
+}
+.png{
+    height: 44px;
+    margin-top: -53px;
+    margin-left: 11px;
+    display: flex;
+}
+.com{
+    color: rgb(39, 38, 38);
+    margin-left: 75px;
+    display: flex;
+    display: flexbox;
+    margin-top: 7px;
+}
+.back a{
+    text-decoration: none;
+    color: rgb(39, 38, 38);
+    font-size: 21px;
+}
+ul{
+    list-style-type: none;
+    margin-top: -46.5px;
+    background-color: #fff;
+}
+li{
+    float: right;
+    display: inline;
+}
+li a {
+    color: #4e4b4b;
+    padding: 15px 17px;
+    text-decoration: none;
+    display: inline;
+} 
+li a:hover{
+    background-color: #726d6d;
+    color: #fff;
+}
+button{
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+}
+.active{
+    background-color: #4e4b4b;
+    color: #fff;
+}
+
+/************-picture-**************/
+
+.picture{
+    height: 800px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-image: url(gettyimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/***********-text-***********/
+
+.txt{
+    display: flex;
+    display: flexbox;
+    float: right;
+    background-color: transparent;
+    margin-top: -520px;
+    margin-right: 12px;
+}
+#to{
+    margin-top: -10px;
+    display: flex;
+    justify-content: end;
+    display: flexbox;
+}
+#pic{
+    margin-top: 45px;
+    display: flex;
+    justify-content: end;
+    display: flexbox;
+    margin-right: 180px;
+    margin-left: -220px;
+    font-size: 17px;
+}
+
+/************-contactus-*************/
+
+.contactus{
+    background-color: #fff;
+    height: 615px;
+    margin-left: -10px;
+    margin-right: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.fix{
+    margin-left: 600px;
+    margin-top: 22px;
+    padding-top: 60px;
+}
+.issue{
+    margin-left: 430px;
+}
+.us{
+    background-color: #6C3483;
+    height: 290px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 50px;
+    background-size: cover;
+}
+.form{
+    height: 365px;
+    width: 390px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    margin-left: 500px;
+    margin-top: -390px;
+    box-shadow: 2px solid grey;
+    border: 1px solid rgb(63, 61, 61);
+    border-top: 2px solid gray;
+    border-radius: 10px;
+}
+.forgot{
+    margin-left: 20px;
+}
+#emp{
+    height: 30px;
+    border-radius: 10px;
+    justify-content: center;
+    box-sizing: border-box;
+    width:350px;
+    margin-left: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    resize: vertical;
+}
+.lab{
+    margin-left: 20px;
+}
+.sub{
+    margin-left: 20px;
+    background-color: #6C3483;
+    color: #fff;
+    border: none;
+}
+.con{
+    margin-left: 140px;
+    font-size: 20px;
+    color: rgb(63, 61, 61);
+}
+
+/*************-Gallery-**************/
+
+.gallery{
+    background-color: #4e4b4b;
+    height: 800px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.gallhome{
+    width: 100%;
+}
+.gallimg{
+    background-image: url(img_5terre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-top: -7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.select{
+    margin-left: 560px;
+    color: #ffffff;
+}
+.slot1{
+    height: 350px;
+    width: 232px;
+    display: flex;
+    display: flexbox;
+    border-radius: 10px;
+    margin-top: -65px;
+    float: left;
+    overflow: visible;
+    margin-left: 55px;
+    margin-right: 35px;
+    border: 4px solid rgb(92, 89, 89);
+    overflow: hidden;
+}
+#slot{
+    float: center;
+}
+
+/*************-Profile-home-**************/
+
+.home{
+    height: 750px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-image: url(earth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.spr{
+    width: 100%;
+}
+.top{
+    margin-top: 7px;
+    height: 40px;
+    background-color: transparent;
+}
+.user{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/013/042/571/small/default-avatar-profile-icon-social-media-user-photo-in-flat-style-vector.jpg);
+    background-color: transparent;
+    height: 255px;
+    width: 255px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    display: flexbox;
+    margin-left: 550px;
+    margin-top: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
